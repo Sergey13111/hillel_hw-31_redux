@@ -10,9 +10,8 @@ export const withdraw = (value) => ({
   payload: value
 });
 
-export const reset = (value) => ({
-  type: RESET,
-  payload: value
+export const reset = () => ({
+  type: RESET
 });
 
 

@@ -31,7 +31,7 @@ const investmentReducer = (state = initialState, action) => {
     case RESET: {
       return {
         ...state,
-        amount: state.amount = action.payload,
+        amount: state.amount = 0,
         error: ""
       };
     }

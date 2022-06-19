@@ -21,7 +21,7 @@ const InvestmantCard = () => {
   };
 
   const handleReset = () => {
-    dispatch(reset(0));
+    dispatch(reset());
   };
 
   return (
